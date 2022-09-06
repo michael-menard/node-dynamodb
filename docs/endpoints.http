@@ -1,0 +1,28 @@
+GET http://localhost:3000/todos
+Accept: application/json
+
+###
+
+GET http://localhost:3000/todos?showPending=1
+Accept: application/json
+
+###
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+    "name": "walk the dog",
+    "completed": false
+}
+
+###
+PUT http://localhost:3000/todos/4e450e2e-e238-4467-b105-1ff69c0ca24f/complete
+Content-Type: application/json
+
+{
+    "name": "walk the dog",
+    "completed": false
+}
+
+###
+

@@ -6,8 +6,8 @@ const CreateTodoController = require("../controllers/CreateTodo.controller");
 const router = new express.Router()
 
 router.get('/todos', GetTodoController)
-router.put('/todos/:id/complete', UpdateTodoController)
-router.post('/todo', CreateTodoController)
+router.put('/todos/:uuid/complete', UpdateTodoController)
+router.post('/todos', CreateTodoController)
 
 
 module.exports = router

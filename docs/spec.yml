@@ -1,0 +1,11 @@
+openapi: 3.1.0
+info:
+  title: express todo api
+  description: Simple express api connecting to dynamodb
+  version: 1.0.0
+  contact:
+    name: michael menard
+    url: www.google.com
+    email: mlmmayhem@gmail.com
+paths:
+
