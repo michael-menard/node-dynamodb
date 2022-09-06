@@ -1,4 +1,4 @@
-import fs from "fs";
+const fs = require("fs");
 
 const GetTodoController = (request, response) => {
     const showPending = request.query.showpending
